@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginGagal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2e40b447-7a21-440d-9788-eb313eace127</testSuiteGuid>
+   <testCaseLink>
+      <guid>ca318115-4098-462b-b6a9-9c4667b1a839</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginGagal/usernameANDpasswordISwrong</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f60b71c9-f62e-40a0-96c4-2171d56bbd6f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginGagal/UsernamePassWrong</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f60b71c9-f62e-40a0-96c4-2171d56bbd6f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>30357760-d4d0-4717-8e4e-bda40703f454</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f60b71c9-f62e-40a0-96c4-2171d56bbd6f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9983ab73-265f-4645-ba2a-03714d3eed71</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
